@@ -12,6 +12,7 @@ export interface TodoItem {
   name: string;
   completed: boolean;
   id: string;
+  insertedAt: Date;
 }
 
 function App() {
@@ -22,7 +23,12 @@ function App() {
   }, [toDoItems]);
 
   const createItem = (item: string) => {
-    const newItem = { name: item, completed: false, id: getLatestId() };
+    const newItem = {
+      name: item,
+      completed: false,
+      id: getLatestId(),
+      insertedAt: new Date(),
+    };
     setToDoItems([...toDoItems, newItem]);
   };
 
