@@ -5,7 +5,7 @@ export const getLatestId = () => {
     localStorage.setItem("id", nextId.toString());
     return latestId;
   }
-  localStorage.setItem("id", "1");
+  localStorage.setItem("id", "2");
   return "1";
 };
 
