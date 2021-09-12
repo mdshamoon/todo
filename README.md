@@ -6,6 +6,9 @@ I use it quite frequently for writing my todo's since I was not able to find a s
 
 I used to write todo's earlier in notes app in my Mac but it also got messy after writing so many notes over time.
 
+![image](https://user-images.githubusercontent.com/32592458/133003051-19b09798-9b8a-4506-8d30-b398bda1d473.png)
+
+
 # How to deploy on your personal github page
 
 1. Fork this repository
